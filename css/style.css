@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+#scarpa_1,
+#scarpa2,
+#scarpa3 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+#scarpa_1 {
+  background-color: red;
+}
+
+#scarpa_2 {
+  background-color: green;
+}
+
+#scarpa_3 {
+  background-color: yellow;
+}
+
+div img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  position: absolute;
+  width: 800px;
+  text-align: center;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
